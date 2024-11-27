@@ -8,8 +8,6 @@ form .form-control:focus{
   box-shadow: none;
 }
 /************************** home page styling start **************************/
-/* tophead styling */
-
 /* main navbar styling */
 .navbar .navbar-toggler:focus {
   box-shadow: none;
