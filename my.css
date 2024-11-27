@@ -9,6 +9,9 @@ form .form-control:focus{
 }
 /************************** home page styling start **************************/
 /* main navbar styling */
+.top_para{
+  font-size: 13px;
+}
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
