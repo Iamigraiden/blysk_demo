@@ -301,7 +301,7 @@ width: 200px;
   position:absolute;
   top: 50%;
   left: -6%;
-  transform: translateY(-20px);
+  transform: translateY(-15px);
   z-index: 3;
 }
 .slider-nav .nextslide-arrow{
@@ -309,16 +309,20 @@ width: 200px;
  top: 50%;
 right: -6%;
   text-align: end;
-  transform: translateY(-20px);
+  transform: translateY(-15px);
   z-index: 3;
 }
 .stock {
     font-size: 14px;
 }
+.accor .accordion-button{
+  font-weight: 500;
+}
 .accor .accordion-button:not(.collapsed) {
   background-color:white;
-
-} 
+  font-weight: 500;
+  color: black;
+}
 .accor .accordion-button:focus{
  box-shadow: none;
 }
@@ -339,6 +343,7 @@ right: -6%;
   }
 .slider-nav .privslide-arrow{
   position:absolute;
+  font-size: 2em;
   height: 100%;
   width: 100%;
   top: -3%;
@@ -353,6 +358,7 @@ right: -6%;
 }
 .slider-nav .nextslide-arrow{
   position:absolute;
+  font-size: 2em;
   height: 100%;
   width: 100%;
   top: 12%;
@@ -397,14 +403,14 @@ right: -6%;
   }
   /* gift section style */
   .gift_section {
-    margin-top: 40px;
+    margin-top: 45px;
   }
   .gift_head {
     font-size: 10px;
     font-weight: bold;
   }
   .gift_para {
-    font-size: 7px;
+    font-size: 8px;
   }
   .gift_btn button {
     font-size: 6px;
@@ -414,7 +420,7 @@ right: -6%;
     font-size: 12px;
   }
   .shop_card {
-    margin-top: 45px;
+    margin-top: 60px;
   }
   .product_cards .h5 {
     font-size: 15px;

@@ -99,8 +99,8 @@
     centerMode: true,
     focusOnSelect: true,
     vertical:true,
-    prevArrow:'<span class="privslide-arrow"><i class="fa-solid fa-2x fa-angle-left"></i></span>',
-    nextArrow:'<span class="nextslide-arrow"><i class="fa-solid fa-2x fa-angle-right"></i></span>',
+    prevArrow:'<span class="privslide-arrow"><i class="fa-solid fa-angle-left"></i></span>',
+    nextArrow:'<span class="nextslide-arrow"><i class="fa-solid fa-angle-right"></i></span>',
     responsive: [
          {
            breakpoint: 1024,
