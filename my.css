@@ -19,6 +19,9 @@ form .form-control:focus{
   font-size: 14px;
   font-weight: 500;
 }
+.menu_icon{
+  width: 20px;
+}
 /* collection card styling start */
 .home_image .card_overlay .card-img-overlay {
   top: 80%;
@@ -79,6 +82,9 @@ form .form-control:focus{
 }
 .p_img img:hover {
   transform: scale(1.1);
+}
+.productname p{
+  font-weight: 600;
 }
 .line {
   width: 100%;
@@ -251,9 +257,7 @@ width: 200px;
 /* homepage styling end  */
 
 /* *************************earing page styling start ************************* */
-.bread_crumb .breadcrumb-item{
-  font-size: 12px;
-}
+
 .earring_banner {
   background-image: url(./images/MaskGroup47.webp);
   background-position: center;
@@ -267,7 +271,8 @@ width: 200px;
 }
 .banner_con {
   padding-left: 10rem;
-  padding-top: 3rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
 }
 .cate_tabs .active{
   color: black;
@@ -433,7 +438,7 @@ right: -6%;
 
   /* earing page media querry  */
   .bread_crumb .breadcrumb-item{
-    font-size: 7px;
+    font-size: 10px;
   }
   .cate_tabs{
     display: flex;
@@ -445,7 +450,8 @@ right: -6%;
     padding: 3px 16px;
 }
   .ear_para {
-    font-size: 8px;
+    font-size: 10px;
+    line-height: 10px;
   }
   .ear_head {
     font-size: 1rem;
@@ -453,6 +459,7 @@ right: -6%;
   .banner_con {
     padding-left: 2rem;
     padding-top: 1rem;
+    padding-bottom:0 ;
   }
   }
 /************************* media quarry for max-width:991px*******************/
